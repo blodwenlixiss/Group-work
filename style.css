@@ -103,3 +103,44 @@ img {
   min-width: 200px;
   line-height: 30px;
 }
+
+/* Second Section */
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.small-box {
+  background-color: #888;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 520px;
+  height: 300px;
+  margin: 20px;
+}
+
+.small-box h3 {
+  font-family: Playfair Display;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.small-box p {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.small-box hr {
+  width: 5%;
+}
+
+.p-space {
+  display: flex;
+  justify-content: space-around;
+}
